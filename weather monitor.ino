@@ -30,9 +30,9 @@ else{
 }
 Serial.println(temp);
 Serial.println(hum);
-bt.print(temp); //send distance to our App
+bt.print(temp); //send temp to our App
 bt.print(";");
-bt.print(hum); //send distance to our App 
+bt.print(hum); //send hum to our App 
 bt.println(";");
 
   delay(1000);
